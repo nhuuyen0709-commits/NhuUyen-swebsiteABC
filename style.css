@@ -5,12 +5,12 @@
 }
 .header{
 flex: 15%;
-  background-color: light-gray;
+  background-color: light-pink;
 }
 .menu{
 flex: 5%;
-  background-color: white;
-  color: black;
+  background-color: light-blue;
+  color: light-gray;
   display: flex;
 }
 .menu a{
@@ -18,8 +18,8 @@ flex: 5%;
   
 }
 .menu hover{
-  background-color: black;
-  color: white;
+  background-color: light-gray;
+  color: light-blue;
 }
 .content{
   flex: 70%;
