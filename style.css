@@ -15,7 +15,7 @@ flex: 5%;
   color: light-gray;
   display: flex;
 }
-.menu a{
+.menu a: hover{
   padding: 15px 20px;
   
 }
