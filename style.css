@@ -6,7 +6,7 @@
 .header{
  flex: 15%;
  background-color:pink;
- background: url("../Images/file_0000000023dc720884971c1d1ff00af3.png") center/100%;
+ background: url("Images/file_0000000023dc720884971c1d1ff00af3.png") center/100%;
   aspect-ratio: 6/1;
 }
 .menu{
