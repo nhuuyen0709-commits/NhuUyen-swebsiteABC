@@ -11,7 +11,8 @@
 }
 .menu{
   flex: 5%;
-  background-color: light-blue;
+  background-color: FireBrick;
+  color:white;
   display: flex;
 }
 .menu a{
@@ -20,6 +21,7 @@
 }
 .menu a:hover{
   background-color: dark-pink;
+  color: blue
 }
 .content{
   flex: 70%;
