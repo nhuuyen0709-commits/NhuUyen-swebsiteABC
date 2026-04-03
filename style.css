@@ -33,7 +33,7 @@
   width: 100%;
  height: 100%; 
 }
-footer{
+.footer{
  flex: 10%;
   background-color: FireBrick;
 }
