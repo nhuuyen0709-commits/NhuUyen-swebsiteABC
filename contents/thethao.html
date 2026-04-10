@@ -10,8 +10,13 @@
       <input type="checkbox" name ="chkBongDa">Bóng đá
        <input type="checkbox" name ="chkCauLong">Cầu lông
        <input type="checkbox" name ="chkCoVua">Cờ vua
-
-      <input type="submit" name="cmd" value ="Đăng ký">
+<script>
+  <input type="submit" name="cmd" value ="Đăng ký">
+     let pp=new URLSearchParams(window.location.search);
+     let Ten=pp.get("txtTen") 
+       document.getElementById("kq").innerHTML="Cảm ơn bạn "+ Ten
+        +" đã đăng ký<br><br>Chúng tôi xin ghi nhận ý kiến của bạn<br>";
+</script>
     </form>
       <form action = "thethao.html">
         <input type="submit" name="cmd" value ="Hủy bỏ">
